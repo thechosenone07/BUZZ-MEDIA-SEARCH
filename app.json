@@ -15,7 +15,7 @@
       "inline"
     ],
     "website": "https://github.com/subinps/Media-Search-bot",
-    "repository": "https://github.com/subinps/Media-Search-bot",
+    "repository": "https://github.com/thechosenone07/BUZZ-MEDIA-SEARCH.git",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
