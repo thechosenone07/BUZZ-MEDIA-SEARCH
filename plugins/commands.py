@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://t.me/orthod_irunna_sankadam_varum/2')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/botnmovie'>TEAM BNM</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>WHO: <a href='https://t.me/Buzzprobot'>WHY</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/botnmovie'>TEAM BNM</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
