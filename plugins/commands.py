@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Channel', url='https://t.me/botnmovie')
+                        InlineKeyboardButton('Channel', url='https://t.me/cinethetics')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Channel", url="https://t.me/botnmovie")
+                        InlineKeyboardButton("Channel", url="https://t.me/cinethetics")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Channel', url='https://t.me/botnmovie'),
+            InlineKeyboardButton('Channel', url='https://t.me/cinethetics'),
             InlineKeyboardButton('Source Code', url='https://t.me/orthod_irunna_sankadam_varum/2')
         ]
         ]
-    await message.reply(text="<b>WHO: <a href='https://t.me/Buzzprobot'>WHY</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/botnmovie'>TEAM BNM</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>WHO: <a href='https://t.me/Buzzprobot'>WHY</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/cinethetics'>CINETHETICS</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
