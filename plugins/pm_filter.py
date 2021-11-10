@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Our Channel', url='https://t.me/botnmovie'),
+                    InlineKeyboardButton('Our Channel', url='https://t.me/cinethetics'),
                     InlineKeyboardButton('TaP ✨', url='https://telegra.ph/file/9b183571f3a5239b179e4.jpg')
                 ]
                 ]
-            await query.message.edit(text="<b> SOMEONE : <a href='https://t.me/J_A_R_V_l_S'>MAN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/botnmovie'>TEAM BNM</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b> SOMEONE : <a href='https://t.me/J_A_R_V_l_S'>MAN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/orthod_irunna_sankadam_varum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/cinethetics'>ℂ𝕀ℕ𝔼𝕋ℍ𝔼𝕋𝕀ℂ𝕊</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('channel', url='https://t.me/botnmovie'),
+                        InlineKeyboardButton('channel', url='https://t.me/cinethetics'),
                         InlineKeyboardButton('ME !', url='https://t.me/Buzzprobot')
                     ]
                     ]
@@ -329,7 +329,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('channel', url='https://t.me/botnmovie'),
+                        InlineKeyboardButton('channel', url='https://t.me/cinethetics'),
                         InlineKeyboardButton('ME !', url='https://t.me/Buzzprobot')
                     ]
                     ]
