@@ -83,8 +83,8 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('go inline', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('our channel', url='https://t.me/botnmovie')
+            InlineKeyboardButton('Go Inline ↗️ ', switch_inline_query_current_chat=query),
+            InlineKeyboardButton('Our Channel ✨', url='https://t.me/cinethetics')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
